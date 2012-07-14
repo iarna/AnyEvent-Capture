@@ -40,9 +40,17 @@ could write the example using L<Data::Monad::CondVar> this way:
 
     my @ips = (as_cv { inet_aton( 'localhost', shift ) })->recv;
 
-=head SEE ALSO
+=head1 SEE ALSO
 
-Data::Monad::CondVar
+Please see those modules/websites for more information related to this module.
+
+=over 4
+
+=item *
+
+L<Data::Monad::CondVar|Data::Monad::CondVar>
+
+=back
 
 =head1 AUTHOR
 

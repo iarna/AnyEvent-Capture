@@ -49,6 +49,6 @@ The first argument passed to your block will be the event listener you
 should use as your callback.  The capture call will return when that
 subroutine is called.
 
-=head SEE ALSO
+=head1 SEE ALSO
 
 Data::Monad::CondVar
