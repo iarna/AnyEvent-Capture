@@ -1,4 +1,4 @@
-# ABSTRACT: Call events synchronously
+# ABSTRACT: Call asynchronous APIs synchronously
 package AnyEvent::Capture;
 use strict;
 use warnings;
