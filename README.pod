@@ -42,7 +42,7 @@ could write the example using L<Data::Monad::CondVar> this way:
 
 =head1 SEE ALSO
 
-Please see those modules/websites for more information related to this module.
+
 
 =over 4
 
