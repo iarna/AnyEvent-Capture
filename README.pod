@@ -1,5 +1,7 @@
 =pod
 
+=encoding utf-8
+
 =head1 NAME
 
 AnyEvent::Capture - Call asynchronous APIs synchronously
@@ -52,6 +54,46 @@ L<Data::Monad::CondVar|Data::Monad::CondVar>
 
 =back
 
+=head1 SOURCE
+
+The development version is on github at L<http://https://github.com/iarna/AnyEvent-Capture>
+and may be cloned from L<git://https://github.com/iarna/AnyEvent-Capture.git>
+
+=for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders metacpan
+
+=head1 SUPPORT
+
+=head2 Websites
+
+The following websites have more information about this module, and may be of help to you. As always,
+in addition to those websites please use your favorite search engine to discover more resources.
+
+=over 4
+
+=item *
+
+MetaCPAN
+
+A modern, open-source CPAN search engine, useful to view POD in HTML format.
+
+L<http://metacpan.org/release/AnyEvent-Capture>
+
+=back
+
+=head2 Bugs / Feature Requests
+
+Please report any bugs at L<https://github.com/iarna/AnyEvent-Capture/issues>.
+
+=head2 Source Code
+
+The code is open to the world, and available for you to hack on. Please feel free to browse it and play
+with it, or whatever. If you want to contribute patches, please send me a diff or prod me to pull
+from your repository :)
+
+L<https://github.com/iarna/AnyEvent-Capture>
+
+  git clone https://github.com/iarna/AnyEvent-Capture.git
+
 =head1 AUTHOR
 
 Rebecca Turner <becca@referencethis.com>
@@ -85,6 +127,7 @@ RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A
 FAILURE OF THE SOFTWARE TO OPERATE WITH ANY OTHER SOFTWARE), EVEN IF
 SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
 DAMAGES.
+
 
 =cut
 
