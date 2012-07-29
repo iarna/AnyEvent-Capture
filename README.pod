@@ -65,8 +65,7 @@ and may be cloned from L<git://https://github.com/iarna/AnyEvent-Capture.git>
 
 =head2 Websites
 
-The following websites have more information about this module, and may be of help to you. As always,
-in addition to those websites please use your favorite search engine to discover more resources.
+More information can be found at:
 
 =over 4
 
@@ -83,16 +82,6 @@ L<http://metacpan.org/release/AnyEvent-Capture>
 =head2 Bugs / Feature Requests
 
 Please report any bugs at L<https://github.com/iarna/AnyEvent-Capture/issues>.
-
-=head2 Source Code
-
-The code is open to the world, and available for you to hack on. Please feel free to browse it and play
-with it, or whatever. If you want to contribute patches, please send me a diff or prod me to pull
-from your repository :)
-
-L<https://github.com/iarna/AnyEvent-Capture>
-
-  git clone https://github.com/iarna/AnyEvent-Capture.git
 
 =head1 AUTHOR
 
