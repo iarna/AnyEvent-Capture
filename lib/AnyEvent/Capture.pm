@@ -3,7 +3,7 @@ package AnyEvent::Capture;
 use strict;
 use warnings;
 use AnyEvent ();
-use Sub::Exporter -setup => {
+use Sub::Exporter::Progressive -setup => {
     exports => [qw( capture )],
     groups => { default => [qw( capture )] },
 };
