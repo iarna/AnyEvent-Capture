@@ -20,14 +20,18 @@ fashion.  This is particularly useful when using L<Coro>.
 This module is similar to L<Data::Monad::CondVar> but much simpler.  You
 could write the example using L<Data::Monad::CondVar> this way:
 
-    my @ips = (as_cv { inet_aton( 'localhost', shift ) })->recv;
+    my @ips = (as_cv {inet_aton( 'localhost', shift ) })->recv;
+
+It's also similar to using rouse_cb/rouse_wait with Coro, where this would be:
+    inet_aton( 'localhost', Coro::rouse_cb);
+    my @ips = Coro::rouse_wait;
 
 =cut
 
 sub capture(&) {
     my( $todo ) = @_;
     my $cv = AE::cv;
-    $todo->( sub { $cv->send(@_) } );
+    my(@results) = $todo->( sub { $cv->send(@_) } );
     return $cv->recv;
 }
 
